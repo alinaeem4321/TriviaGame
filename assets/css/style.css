@@ -1,0 +1,59 @@
+body{
+	background: url('../images/sky.jpg');
+	font-family: 'Raleway', sans-serif;
+	font-size: 35px;
+	color: #F7FE2E;
+	text-shadow: #5E610B 2px 2px; 
+	font-style: oblique;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+h1{
+	font-family:Pacifico;
+    font-size: 60px;
+    margin: 0 100px;
+    color: #01DF3A;
+    text-shadow: 2px 2px #5F04B4;
+}
+.btn-primary,.reset{
+	background-color: #0B610B;
+	color: #D7DF01;
+	font-family: 'Sigmar One', sans-serif;
+	font-size: 30px;
+	box-shadow: #D7DF01 4px 4px;
+}
+.btn-primary:hover, .reset:hover{
+	background-color: #202364;
+	font-size: 40px;
+}
+
+.container{
+	margin-top: 0px;
+	text-align: center;
+	height: 100%;
+	width: 700px;
+}
+
+#message, #finalMessage{
+	font-family: Sigmar One;
+	color: white;
+	font-size: 40px;
+}
+
+.thisChoice:hover{
+	background-color: #01DF01;
+	color: white;
+	font-size: 30px;
+}
+
+#gif{
+	margin: 0px;
+}
+
+@media screen and (max-width:640px){
+	.container{
+		width: 500px;
+		margin-top: 200px;
+		size: 200%;
+	}	
+}
